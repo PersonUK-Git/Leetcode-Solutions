@@ -1,5 +1,8 @@
+from collections import defaultdict
+
+
 class Solution:
-    def maxEqualRowsAfterFlips(self, matrix: List[List[int]]) -> int:
+    def maxEqualRowsAfterFlips(self, matrix: list[list[int]]) -> int:
         count = defaultdict(int)
 
         for row in matrix:
